@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+
+  <!-------------------------- CSS -------------------------->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link href="css/hover.css" rel="stylesheet" media="all">
+  <!-------------------------- ICONES -------------------------->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-------------------------- FONTES -------------------------->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="gradient">
+  <!--------------------HEADER---------------------------------------------------------------------------------------------->
+
+  <section id="header" class="fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="nav-link-principal">
+          <a class="nav-link hvr-grow" href="#home"> Davi </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-light navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-reveal" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-reveal" href="#sobre">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-reveal" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-reveal" href="#formacao">Formação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-reveal" href="#portfolio">Portfólio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-reveal" href="#contato">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hvr-bob" href="#light-mode"><span class="material-icons">
+                  light_mode
+                </span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!---------------------//HEADER---------------------------------------------------------------------------------------------->
+
+  <!--------------------- HOME -------------------------------------------------------------------------------------------------->
+
+  <section class="container" id="home">
+    <div class="row" id="reverse">
+      <div class="col-md-4 icones-apresentacao text-center">
+        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5561982012759" target="_blank">
+          <span class="material-icons text-white hvr-bob pb-4"> whatsapp </span>
+        </a>
+        </d>
+        <p>
+          <a href="tel:61982012759">
+            <span class="material-icons text-white hvr-bob pb-2"> call </span>
+          </a>
+        </p>
+        <p>
+          <a href="mailto:daviotavioribeiro@gmail.com" target="_blank">
+            <span class="material-icons text-white hvr-bob"> mail_outline </span>
+          </a>
+        </p>
+      </div>
+      <div class="col-md-4" id="texto-centralizado-resp">
+        <h1>Olá, sou o<br />Davi</h1>
+        <h5 class="mb-3">Desenvovedor de software</h5>
+        <p>
+          Apaixonado por tecnologia e focado <br> em solucionar problemas,
+          melhorando <br> a usabilidade e maximizando a <br> eficiência de sistemas
+        </p>
+        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5561982012759" target="_blank"
+          class="btn botao-fale-comigo hvr-rectangle-out">Fale comigo <span class="material-icons">
+            send
+          </span></a>
+      </div>
+      <div class="col-md-4">
+        <img class="hvr-grow elipse-resp" src="assets/image/ellipse1.svg" />
+      </div>
+    </div>
+  </section>
+  <!------------------------ //HOME ----------------------------------------------------------------------------------------->
+
+
+  <!------------------------ SOBRE MIM  ------------------------------------------------------------------------------>
+
+  <section class="container" id="sobre">
+    <div class="row">
+      <div class="sobre-mim-titulo">
+        <h1 class="text-center">Sobre mim</h1>
+      </div>
+      <div class="col-md-6 img-resp">
+        <img class="img-sobre-resp" src="/assets/image/davi-secao-sobre.svg" alt="">
+      </div>
+      <div class="col-md-6">
+        <p>Desenvolvedor Full-stack Brasileiro. <br>
+          Utilizo C# na plataforma .NET Core <br> como llinguagem principal, e utilizo <br> o padrão MVC para
+          desenvolver <br> meus projetos</p>
+        <a href="/assets/cv/Currículo_Davi_Otavio.pdf" download class="btn botao-curriculo hvr-rectangle-out">Meu
+          currículo <span class="material-icons">download</span> </a>
+      </div>
+    </div>
+  </section>
+  <!--------------------- //SOBRE MIM ------------------------------------------------------------------------------>
+
+  <!--------------------- SKILLS ------------------------------------------------------------------------------>
+  <section class="container-sm" id="skills">
+    <div class="skills-titulo">
+      <h1 class="text-center">Skills</h1>
+    </div>
+    <div class="d-flex justify-content-center">
+      <ul class="nav nav-tabs nav-resp" id="myTab" role="tablist">
+        <li class="nav-item ">
+          <a class="nav-link active" id="front-tab" data-toggle="tab" href="#front" role="tab" aria-controls="front"
+            aria-selected="true">Front-End</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" id="back-tab" data-toggle="tab" href="#back" role="tab" aria-controls="back"
+            aria-selected="false">Back-End</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="ferramentas-tab" data-toggle="tab" href="#ferramentas" role="tab"
+            aria-controls="ferramentas" aria-selected="false">Ferramentas</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" id="conhecimento-tab" data-toggle="tab" href="#conhecimento" role="tab"
+            aria-controls="conhecimento" aria-selected="false">Conhecimento</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container conteudos-nav">
+      <div class="d-flex justify-content-center">
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="front" role="tabpanel" aria-labelledby="front-tab">
+            <p>HTML</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+            <p>CSS</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+            <p>JAVASCRIPT</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 40%;" aria-valuenow="40"
+                aria-valuemin="0" aria-valuemax="100">40%</div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="back" role="tabpanel" aria-labelledby="back-tab">
+            <p>ASP.NET Core</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+            <p>C#</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="ferramentas" role="tabpanel" aria-labelledby="ferramentas-tab">
+            <p>Entity Framework Core</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 40%;" aria-valuenow="40"
+                aria-valuemin="0" aria-valuemax="100">40%</div>
+            </div>
+            <p>Bootstrap</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+            <p>Figma</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 100%;" aria-valuenow="100"
+                aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
+            <p>Git</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 40%;" aria-valuenow="40"
+                aria-valuemin="0" aria-valuemax="100">40%</div>
+            </div>
+            <p>XAMPP</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+            <p>Mantis BugTracker</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 100%;" aria-valuenow="100"
+                aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
+            <p>SQL</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="conhecimento" role="tabpanel" aria-labelledby="conhecimento-tab">
+            <p>Inglês</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                aria-valuemin="0" aria-valuemax="100">50%</div>
+            </div>
+            <p>Trabalho em equipe</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 100%;" aria-valuenow="100"
+                aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
+            <p>Escrita e Comunicação</p>
+            <div class="progress progresso">
+              <div class="progress-bar barra-de-progresso" role="progressbar" style="width: 100%;" aria-valuenow="100"
+                aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------- //SKILLS ------------------------------------------------------------------------------>
+
+  <!------------------- FORMACAO ------------------------------------------------------------------------------>
+
+
+  <section class="container" id="formacao">
+    <div class="titulo">
+      <h1 class="text-center">Formação</h1>
+    </div>
+    <div class="row">
+
+
+      <div class="col-md-6 formacao-resp1">
+        <a href="#" class="btn botao-formacao hvr-rectangle-out" data-bs-toggle="modal"
+          data-bs-target="#modalAcademico">Acadêmico <span class="material-icons icones">
+            school
+          </span></a>
+      </div>
+
+
+      <div class="modal fade" id="modalAcademico" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Experiência acadêmica</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h6>Análise e desenvolvimento de sistemas - Universidade Estácio de Sá - Brásilia/Brasil</h6>
+              <p class="p-info">Diretamente focado em desenvolver aplicações</p>
+              <p class="p-periodo">Julho 2021 - Dezembro 2023</p>
+              <hr>
+              <h6>Técnico em informática para internet - Senac EAD</h6>
+              <p class="p-info">Desenvolvimento de aplicações web e mobile (Full-Stack)</p>
+              <p class="p-periodo">Julho 2021 - Dezembro 2022</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn botao-modal" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 formacao-resp2">
+        <a href="#" class="btn botao-formacao hvr-rectangle-out" data-bs-toggle="modal"
+          data-bs-target="#modalProfissional">Profissional <span class="material-icons icones">
+            work
+          </span></a>
+      </div>
+
+
+      <div class="modal fade" id="modalProfissional" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Experiência profissional</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn botao-modal" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------- //FORMACAO ------------------------------------------------------------------------------>
+
+
+  <!------------------- PORTFOLIO ------------------------------------------------------------------------------>
+
+  <section class="container" id="portfolio">
+    <div class="carrossel">
+      <div class="titulo-portfolio pt-3">
+        <h1>Portfólio</h1>
+      </div>
+      <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner item-carrossel">
+
+          <div class="carousel-item active ">
+            <div class="row">
+              <div class="col-md-6 img-carrossel">
+                <img class="img-size" src="/assets/image/berserk.svg" alt="">
+              </div>
+              <div class="col-md-6 espaçamento-resp-info">
+                <h4>Berserk barbershop</h4>
+                <p class="info-carrossel">A BERSERK BARBERSHOP é um projeto em andamento, desenvolvido em C# na
+                  plataforma ASP.NET Core, utilizando o padrão MVC e conexão com banco de dados</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6 img-carrossel">
+                <img class="img-size" src="/assets/image/beautysalon.svg" alt="">
+              </div>
+              <div class="col-md-6 espaçamento-resp-info">
+                <h4>Beauty Salon</h4>
+                <p class="info-carrossel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, culpa, aperiam
+                  repudiandae debitis repellat voluptate quisquam, eaque fugit architecto cupiditate sapiente enim.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6 img-carrossel">
+                <img class="img-size" src="/assets/image/welovepizza.svg" alt="">
+              </div>
+              <div class="col-md-6 espaçamento-resp-info">
+                <h4>We Love Pizza</h4>
+                <p class="info-carrossel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, culpa, aperiam
+                  repudiandae debitis repellat voluptate quisquam, eaque fugit architecto cupiditate sapiente enim.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6 img-carrossel">
+                <img class="img-size" src="/assets/image/portfolio.png" alt="">
+              </div>
+              <div class="col-md-6 espaçamento-resp-info">
+                <h4>Meu Portfólio</h4>
+                <p class="info-carrossel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, culpa, aperiam
+                  repudiandae debitis repellat voluptate quisquam, eaque fugit architecto cupiditate sapiente enim.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!------------------- //PORTFOLIO ------------------------------------------------------------------------------>
+
+  <!------------------- CONTATO ------------------------------------------------------------------------------>
+
+  <section class="container" id="contato">
+    <div class="contato-titulo">
+      <h1>Contato</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6 icones-contato">
+        <div>
+          <p>
+            <a href="tel:61982012759" target="_blank">
+              <span class="material-icons text-white hvr-bob"> call </span>
+              <p>+55 61 9 8201-2759</p>
+            </a>
+          </p>
+        </div>
+        <div>
+          <p>
+            <a href="mailto:daviotavioribeiro@gmail.com">
+              <span class="material-icons text-white hvr-bob"> mail_outline </span>
+              <p>daviotavioribeiro@gmail.com</p>
+            </a>
+          </p>
+        </div>
+        <div class="icone-display-none">
+          <p>
+            <a
+              href="https://www.google.com.br/maps/place/Taguatinga,+Bras%C3%ADlia+-+DF/@-15.808492,-48.0991249,12.26z/data=!4m5!3m4!1s0x935a330dea076069:0x7f6433e22e87f312!8m2!3d-15.8107481!4d-48.065751"
+              target="_blank">
+              <span class="material-icons text-white hvr-bob"> place </span>
+              <p>Brasília, DF - Brasil</p>
+            </a>
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122845.77039881755!2d-48.11971663858569!3d-15.807627479177283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a330dea076069%3A0x7f6433e22e87f312!2sTaguatinga%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v1651787609320!5m2!1spt-BR!2sbr"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+      <div class="col-md-6 elipse-contato">
+        <img src="/assets/image/ellipse2.svg" alt="">
+      </div>
+    </div>
+
+  </section>
+
+  <a href="#" class="to-top">
+    <span class="material-icons">
+      expand_less
+      </span>
+  </a>
+
+  <!------------------- //CONTATO ------------------------------------------------------------------------------>
+
+
+
+  <footer class="text-center text-white rodape" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="container pt-4">
+      <section class="mb-4">
+      </section>
+
+    </div>
+    <div class="text-center p-3 text-light" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-light" href="#home">Davi Otávio</a>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

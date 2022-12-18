@@ -1,0 +1,127 @@
+@media (max-width: 770px) {
+  #reverse {
+    flex-direction: column-reverse;
+  }
+
+  #home {
+    text-align: center;
+    padding-top: 8rem;
+  }
+
+  #home .elipse-resp {
+    width: 60%;
+  }
+
+  #home .icones-apresentacao {
+    display: none;
+  }
+
+  #sobre {
+    padding-top: 80px;
+    text-align: center;
+  }
+
+  #sobre .img-resp {
+    display: flex;
+    justify-content: center;
+  }
+
+  #sobre .img-sobre-resp {
+    width: 60%;
+  }
+
+  #sobre .botao-curriculo {
+    margin-top: 0px;
+  }
+
+  #skills {
+    padding-top: 80px;
+  }
+
+  #skills .progresso {
+    width: 250px;
+  }
+
+  #skills .nav-resp {
+    border-bottom: 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #skills .conteudos-nav {
+    margin-top: 40px;
+  }
+
+  #formacao .formacao-resp1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #formacao .formacao-resp2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #portfolio .info-carrossel {
+    width: 100%;
+  }
+
+  #portfolio .espaçamento-resp-info {
+    padding-bottom: 3rem;
+  }
+
+  #portfolio .img-carrossel {
+    display: flex;
+    justify-content: center;
+  }
+
+  #portfolio h4 {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  #portfolio p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #contato p {
+    display: flex;
+    justify-content: center;
+  }
+
+  #contato .elipse-contato {
+    display: none;
+  }
+
+  #contato .icone-display-none {
+    display: none;
+  }
+
+  #contato iframe {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  * {
+    font-size: 14px;
+  }
+
+  #home .botao-fale-comigo {
+    width: 10.5rem;
+  }
+
+  #sobre .img-sobre-resp {
+    width: 50%;
+  }
+
+  #sobre .botao-curriculo {
+    width: 10.5rem;
+  }
+}

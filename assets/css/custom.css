@@ -1,0 +1,295 @@
+/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
+e 10px de altura para a barra horizontal */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* aqui é a alça da barra, que demonstra a altura que você está na página
+  estou colocando uma cor azul clara nela*/
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+.gradient {
+  background-size: auto;
+  background: rgb(35, 41, 99);
+  background: radial-gradient(circle, rgb(21, 12, 44) 30%, rgb(0, 0, 0) 55%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#header {
+  width: 100%;
+  background-color: var(--dark);
+  transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+  width: auto;
+}
+
+#header .nav-link-principal {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+
+/* #header .nav-link-principal:hover {
+  color: var(--secondary);
+} */
+
+#header .nav-link {
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  border-bottom: solid 4px transparent;
+}
+
+/* #header .nav-link:hover {
+  border-bottom: solid 1px var(--secondary);
+  color: var(--secondary);
+} */
+
+/* sandwich color */
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#home {
+  padding-top: 15rem;
+}
+
+#home h5 {
+  color: var(--secondary);
+}
+
+#home .botao-fale-comigo {
+  width: 12.5rem;
+  color: white;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  border-radius: 2px;
+}
+
+#sobre {
+  padding-top: 13rem;
+}
+
+#sobre .img-resp {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#sobre .sobre-mim-titulo {
+  padding-bottom: 2.125rem;
+}
+
+#sobre .botao-curriculo {
+  width: 12.5rem;
+  margin-top: 1.875rem;
+  color: white;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  border-radius: 2px;
+}
+
+#skills {
+  padding-top: 13rem;
+}
+
+#skills p {
+  margin: 0.313rem;
+}
+
+#skills .skills-titulo {
+  padding-bottom: 2.125rem;
+}
+
+#skills .nav-tabs > li > a {
+  color: var(--light);
+}
+
+#skills .nav-tabs > li:hover > a,
+#skills .nav-tabs > li .active > a {
+  /* border: 1px solid var(--primary) !important;
+  background-color: var(--primary) !important; */
+  color: var(--light);
+}
+
+#skills .nav-tabs .nav-link.active {
+  color: var(--light);
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+#skills .conteudos-nav {
+  margin-top: 1.875rem;
+}
+
+/* #skills .div-skills-posicionamento {
+  margin: 0px 320px;
+} */
+
+#skills .barra-de-progresso {
+  background-color: var(--primary);
+}
+
+#skills .progresso {
+  width: 28.125rem;
+}
+
+#formacao {
+  padding-top: 10rem;
+}
+
+#formacao .botao-formacao {
+  width: 12.5rem;
+  margin-top: 1.875rem;
+  color: white;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  border-radius: 2px;
+}
+
+#formacao .formacao-resp1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#formacao .formacao-resp2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#formacao .botao-modal {
+  color: white;
+  background-color: var(--primary);
+  border-radius: 5px;
+}
+
+#formacao p {
+  margin-bottom: 0.5rem;
+}
+
+#formacao h5 {
+  color: var(--primary-dark);
+}
+
+#formacao h6 {
+  margin-bottom: 0.625rem;
+  color: var(--primary);
+}
+
+#formacao .p-instituicao {
+  color: var(--secondary-dark);
+}
+
+#formacao .p-info {
+  color: var(--secondary-dark);
+  font-size: 14px;
+}
+
+#formacao .p-periodo {
+  color: rgb(140, 140, 140);
+  font-size: 12px;
+}
+
+#portfolio {
+  padding-top: 10rem;
+}
+
+#portfolio .titulo-portfolio {
+  text-align: center;
+  padding-bottom: 2.125rem;
+}
+
+#portfolio .carrossel {
+  background-color: rgba(0, 0, 0, 0.412);
+}
+
+#portfolio .img-carrossel {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#portfolio .info-carrossel {
+  width: 20rem;
+}
+
+#portfolio .item-carrossel {
+  padding-bottom: 3.125rem;
+}
+
+#portfolio .img-size {
+  width: 300px;
+  height: 200px;
+}
+
+#contato {
+  padding-top: 7rem;
+}
+
+#contato p {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#contato .contato-titulo {
+  text-align: center;
+  padding-bottom: 2.125rem;
+}
+
+#contato .icones-contato {
+  display: flex;
+  flex-direction: column;
+}
+
+#contato a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+#contato iframe {
+  display: none;
+}
+
+body .rodape {
+  margin-top: 5rem;
+}
+
+/* botao back to top */
+
+.to-top {
+  background: var(--primary);
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: var(--light);
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+
+.to-top:hover {
+  color: var(--secondary);
+}
+
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
